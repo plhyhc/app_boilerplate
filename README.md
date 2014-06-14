@@ -1,10 +1,8 @@
-Mountain Finance
+Kraft App Boilerplate
 =========
 
 
-This application is a personal finance management and budgeting system.  
-
-This is a weekend project, so please use at your own risk.  Enjoy. 
+This is a custom web application framework boilerplate.  Base framework that an application can be built upon.
 
 
 Installation 
