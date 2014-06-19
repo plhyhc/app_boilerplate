@@ -3,8 +3,8 @@ Kraft App Boilerplate
 
 
 This is a custom web application framework boilerplate.  Base framework that an application can be built upon.
-
-
+ 
+ 
 Installation 
 =============
 Requirements: Web server running PHP 5.4 and a MySQL or Maria database.
