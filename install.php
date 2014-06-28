@@ -15,7 +15,7 @@ if(isset($_POST['db_host'])){
 	$db_user = (isset($_POST['db_user'])) ? $_POST['db_user'] : die("DB Username is required.  Please go back and fill in.");
 	$db_pass = (isset($_POST['db_pass'])) ? $_POST['db_pass'] : die("DB Password is required.  Please go back and fill in.");
 	$username = (isset($_POST['username'])) ? $_POST['username'] : die("Admin Username is required.  Please go back and fill in.");
-	//$password = (isset($_POST['password'])) ? $_POST['password'] : die("Admin Password is required.  Please go back and fill in.");
+	$password = (isset($_POST['password'])) ? $_POST['password'] : '';
 	$confirmpassword = (isset($_POST['confirmpassword'])) ? $_POST['confirmpassword'] : die("Admin Confirm Password is required.  Please go back and fill in.");
 
 	if($password != $confirmpassword){
